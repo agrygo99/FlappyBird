@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - GameControl
     - RepeatingBackground
     - ScrollingObject
+    - SoundFX
     - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -56,6 +57,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -63,37 +68,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11578}
+      Script: {instanceID: 11544}
     - Class: 114
-      Script: {instanceID: 11632}
+      Script: {instanceID: 11598}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 12176}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12296}
+      Script: {instanceID: 12262}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12452}
     - Class: 114
-      Script: {instanceID: 12924}
+      Script: {instanceID: 12890}
     - Class: 114
-      Script: {instanceID: 13002}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 13262}
+      Script: {instanceID: 13228}
     - Class: 114
-      Script: {instanceID: 13328}
+      Script: {instanceID: 13294}
     - Class: 114
-      Script: {instanceID: 13372}
+      Script: {instanceID: 13338}
     - Class: 114
-      Script: {instanceID: 13768}
+      Script: {instanceID: 13734}
     - Class: 114
-      Script: {instanceID: 13818}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 13842}
+      Script: {instanceID: 13786}
     - Class: 114
-      Script: {instanceID: 14382}
+      Script: {instanceID: 13810}
+    - Class: 114
+      Script: {instanceID: 14350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -151,6 +158,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -519,6 +532,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundFX
+  - hash:
+      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -646,4 +665,4 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Flappy Bird Style/_Scenes/Main.unity
-  playerPath: C:/Users/ashle/Desktop/tempFlapBuild/FlappyBird.exe
+  playerPath: D:/Document/Game Dev/Flappy Bird/FlappyBird/Flappy Bird/FlappyBird.exe
