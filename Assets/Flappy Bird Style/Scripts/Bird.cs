@@ -25,6 +25,8 @@ public class Bird : MonoBehaviour
 			//Look for input to trigger a "flap".
 			if (Input.GetKeyDown("space")) 
 			{
+				//... play flap sound
+				SoundFX.PlaySound("Flap");
 				//...tell the animator about it and then...
 				anim.SetTrigger("Flap");
 				//...zero out the birds current y velocity before...
@@ -43,6 +45,8 @@ public class Bird : MonoBehaviour
 		rb2d.velocity = Vector2.zero;
 		// If the bird collides with something set it to dead...
 		isDead = true;
+		//add collision sound
+		SoundFX.PlaySound("Collision");
 		//...tell the Animator about it...
 		anim.SetTrigger ("Die");
 		//...and tell the game control about it.
