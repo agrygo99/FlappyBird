@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 118
+  controlID: 36
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 471}
   m_MaxSize: {x: 10001, y: 14021}
   vertical: 1
-  controlID: 61
+  controlID: 89
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 471}
   m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
-  controlID: 139
+  controlID: 82
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 471}
   m_MaxSize: {x: 14003, y: 14021}
   vertical: 0
-  controlID: 117
+  controlID: 35
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,8 +316,8 @@ MonoBehaviour:
     y: 0
     width: 807
     height: 222
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -419,14 +419,14 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ashle\Desktop\git_Flappy\FlappyBird
+  m_LastProjectPath: C:\Users\ashle\Desktop\Flappy\FlappyBird
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a4480000
     m_LastClickedID: 18596
-    m_ExpandedIDs: 00000000fe390000703a0000723a0000743a0000763a0000783a00007a3a00007c3a0000
+    m_ExpandedIDs: 0000000000390000083b00000a3b00000c3b00000e3b0000103b0000123b0000143b0000163b0000183b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 117}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000fe390000703a0000723a0000743a0000763a0000783a00007a3a00007c3a00001048000012480000
+    m_ExpandedIDs: ffffffff0000000000390000083b00000a3b00000c3b00000e3b0000103b0000123b0000143b0000163b0000183b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,7 +579,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9ae0ffff1ae8fffff8f6ffff5efbffff3639000082390000e0470000
+      m_ExpandedIDs: d4c7ffffecc7ffffeec7ffff76c8ffff8ec8ffff90c8ffff3ac9ffff52c9ffff54c9ffff36d0ffff4ed0ffff50d0ffff92dcffffaadcffffacdcffffcce9ffffe4e9ffff8ceaffff78f2ffff90f2ffff38f3ffff9cf9ffff7645000074480000c0480000e8480000fc480000fc4a0000084b0000484b0000704b0000844b0000844d0000904d0000d04d0000f84d00000c4e00008050000008530000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -790,7 +790,7 @@ MonoBehaviour:
       y: 21
       width: 805
       height: 467
-    m_Scale: {x: 1.1079414, y: 1.1079414}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 402.5, y: 233.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -798,10 +798,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -363.28638
-      y: -210.75122
-      width: 726.57275
-      height: 421.50244
+      x: -402.5
+      y: -233.5
+      width: 805
+      height: 467
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1006.25, y: 610}
